@@ -23,7 +23,7 @@ public class Client {
 
     public static void main(String[] args) throws InterruptedException {
         clientStuff();
-        System.out.println("branch commit");
+        System.out.println("branch commit2");
     }
     // branch commit
     private static void clientStuff() throws InterruptedException {
