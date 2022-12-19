@@ -58,6 +58,8 @@ public class Client {
             System.out.println("Приєднання до сервера...");
             Thread.sleep(1000);
             clientStuff();
+            System.out.println("коммит в мастере");
+            //коммит в масетре
         }
     }
 }
