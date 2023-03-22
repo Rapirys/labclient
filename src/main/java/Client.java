@@ -6,8 +6,13 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 public class Client {
+
     //commit to merge test branch
     static Logger logger = Logger.getLogger(Client.class.getName());
+
+    //commit to test branch commit to master
+
+
 
     static {
         try {
@@ -23,8 +28,9 @@ public class Client {
 
     public static void main(String[] args) throws InterruptedException {
         clientStuff();
+        System.out.println("branch commit2");
     }
-
+    // branch commit
     private static void clientStuff() throws InterruptedException {
         try (Socket clientSocket = new Socket("localhost", 4004);
              BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
@@ -51,6 +57,8 @@ public class Client {
             System.out.println("Приєднання до сервера...");
             Thread.sleep(1000);
             clientStuff();
+            System.out.println("коммит в мастере");
+            //коммит в масетре
         }
     }
     //commit to test branch merge
