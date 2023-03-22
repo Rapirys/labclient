@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 public class Client {
-    //commit to test branch
+    //commit to test branch commit to master
 
     Logger logger = Logger.getLogger(Client.class.getName());
 
