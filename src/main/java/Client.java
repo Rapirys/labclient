@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 public class Client {
-
+    //commit to merge test branch
     static Logger logger = Logger.getLogger(Client.class.getName());
 
     static {
