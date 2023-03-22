@@ -6,8 +6,9 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 public class Client {
+    //commit to test branch
 
-    static Logger logger = Logger.getLogger(Client.class.getName());
+    Logger logger = Logger.getLogger(Client.class.getName());
 
     static {
         try {
@@ -22,16 +23,10 @@ public class Client {
     }
 
     public static void main(String[] args) throws InterruptedException {
-//        System.out.println("Формат повідомлення: 'кількість команд '{'команда'} \n" +
-//                "наприклад: '3 W TurnRight S'" +
-//                "  Список команд: \n" +
-//                "    Who\n" +
-//                "    W,A,S,D - команди для переміщення\n" +
-//                "    TurnUp,TurnDown,TurnLeft,TurnRight - команди керування камерою\n" +
-//                "    Exit");
         clientStuff();
+        System.out.println("branch commit2");
     }
-
+    // branch commit
     private static void clientStuff() throws InterruptedException {
         try (Socket clientSocket = new Socket("localhost", 4004);
              BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
