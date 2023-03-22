@@ -6,13 +6,9 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 public class Client {
-
-    //commit to merge test branch
-    static Logger logger = Logger.getLogger(Client.class.getName());
-
     //commit to test branch commit to master
 
-
+    Logger logger = Logger.getLogger(Client.class.getName());
 
     static {
         try {
@@ -61,5 +57,4 @@ public class Client {
             //коммит в масетре
         }
     }
-    //commit to test branch merge
 }
