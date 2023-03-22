@@ -16,6 +16,8 @@ public class Command {
         map.put("Who", (byte) 1);
         map.put("Exit", (byte) 0);
         map.put("AddPolygon", (byte) 100);
+        // main branch cahnges
+
     }
     private byte length;
 //    private List<Byte> commands;
